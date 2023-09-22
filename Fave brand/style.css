@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-image: url(./image/foundation-with-dark-background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: white;
+
+}
+li{
+    list-style: none;
+    padding: 20px;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+li :hover{
+    color: chocolate;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    background: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left, .right{
+    justify-content: space-around;
+    display: flex;
+}
+.info{
+    color: aliceblue;
+    padding-top: 130px;
+    padding-left: 20px;
+    
+
+}
+p{
+    padding-top: 20px;
+    width: 350px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 900;
+    padding-top: 50px;
+}
+
